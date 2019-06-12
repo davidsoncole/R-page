@@ -1,0 +1,290 @@
+body {
+  margin: 0 !important;
+  overflow-x: hidden;
+}
+
+.flow-text {
+  font-size: 1rem !important;
+}
+
+nav {
+  width: 100% !important;
+  background: #4365b3 !important;
+}
+
+nav img {
+  width: 25px;
+  margin-top: 15px;
+}
+
+nav a {
+  font-size: 13px !important;
+}
+
+header {
+  padding: 60px 0;
+  /*img  {
+		position: absolute;
+	}
+	.aa {
+		margin-left: -400px;
+		margin-top: -100px;
+	}
+	.ab {
+		margin-left: -440px;
+		margin-top: -100px;
+	}
+	.ac {
+		margin-left: -430px;
+		margin-top: -100px;
+	}
+	.ad {
+		margin-left: -420px;
+		margin-top: -185px;
+	}
+	.ae {
+		margin-left: -270px;
+		margin-top: 25px;
+	}
+	.af {
+		margin-left: -100px;
+		margin-top: 235px;
+	}
+	.ag {
+		margin-left: 128px;
+		margin-top: 415px;
+	}
+	.lap {
+		margin-left: -430px;
+	}*/
+}
+
+header h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #4365b3;
+}
+
+header p {
+  color: #4365b3;
+}
+
+header button {
+  font-width: bold;
+  margin-top: 20px;
+  padding: 5px 60px 5px 40px !important;
+  background-color: #4365b3 !important;
+  height: 100% !important;
+}
+
+header button i {
+  position: absolute !important;
+  margin-top: -36px;
+  margin-left: 60px !important;
+}
+
+#About {
+  padding: 0rem 10rem 0 10rem;
+}
+
+#About h4, #About h3, #About p {
+  color: #4365b3;
+}
+
+#About .image1 {
+  position: absolute;
+  margin-left: -400px;
+  margin-top: -100px;
+  z-index: -4;
+}
+
+#About article {
+  z-index: 4;
+  margin-top: 350px;
+}
+
+#About .all-devices {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+#Fe-atures {
+  background: #f3fffc;
+  padding: 50px 0;
+}
+
+#Fe-atures h4, #Fe-atures h5, #Fe-atures p {
+  color: #4365b3;
+}
+
+#Fe-atures .lines {
+  background: #ffc980;
+  margin: auto;
+  width: 40vw;
+  height: 1px;
+  margin-bottom: 60px;
+}
+
+#Fe-atures i {
+  color: #ffc980;
+}
+
+#more {
+  background: #f3fffc;
+  padding: 100px 0;
+}
+
+#more .ba {
+  width: 50vw;
+}
+
+#more .bb {
+  position: absolute;
+  margin-left: 210px;
+  margin-top: -90px;
+}
+
+#more .space {
+  margin-top: 300px;
+}
+
+#more .bd {
+  width: 50vw;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+#more .bc {
+  position: absolute;
+  margin-top: -120px;
+  margin-left: -15px;
+  width: 40vw;
+}
+
+#more .s4 {
+  padding-left: 5vw;
+  padding-top: 6vw;
+}
+
+#more article {
+  width: 20vw;
+  color: #4365b3;
+}
+
+#Pricing {
+  background-image: url("../img/ELULA_Data_01.gif");
+}
+
+#Pricing .container-fluid {
+  padding: 6vw 10vw 1vw 10vw;
+}
+
+#Pricing .card-panel {
+  border-radius: 5px;
+}
+
+#Pricing .overlay {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+#Pricing .startup .btn {
+  background: #4365b3;
+  margin-top: 10px;
+  padding: 0 40px;
+  font-width: bold !important;
+  height: 100% !important;
+}
+
+#Pricing .startup .divde {
+  border-left: 1px solid #F5F3F3;
+}
+
+#Pricing .heads article {
+  padding-bottom: 50px;
+  width: 40vw;
+  color: #fff;
+}
+
+#Pricing i {
+  font-size: 15px;
+  color: #1cd3a2;
+}
+
+#Pricing .premium {
+  margin-top: 40px;
+}
+
+#Pricing .premium .lines {
+  width: 200px;
+  height: 1px;
+  margin: auto;
+  background: #fff;
+}
+
+#Pricing .premium .card-panel {
+  background: #4365b3;
+}
+
+#Pricing .premium .card-panel hr {
+  margin: 20px 0 30px 0;
+}
+
+#Pricing .premium .card-panel .btn {
+  color: #4365b3;
+  background: #FFFFFF;
+  margin-top: 10px;
+  padding: 0 40px;
+  font-width: bold !important;
+  height: 100% !important;
+}
+
+#ending {
+  background: #F5F3F3;
+  padding: 100px 0 0 0;
+}
+
+#ending .btn {
+  margin-top: 20px;
+  padding: 5px 40px 5px 40px !important;
+  background-color: #4365b3 !important;
+  height: 100% !important;
+}
+
+#ending img {
+  width: 40vw;
+  margin-top: -100px;
+}
+
+footer {
+  padding: 20px 0;
+  background: #4365b3;
+}
+
+footer h6 {
+  font-weight: 600;
+}
+
+footer i {
+  font-size: 15px;
+  color: #ffc980;
+}
+
+footer input[type=email]:not(.browser-default) {
+  border-bottom: 1px solid #ffc980;
+}
+
+footer input {
+  color: #ffc980;
+}
+
+footer .input-field > label {
+  color: #ffc980;
+}
+
+footer .input-field .helper-text {
+  color: #ffc980;
+}
+
+footer small {
+  color: #fff;
+}
